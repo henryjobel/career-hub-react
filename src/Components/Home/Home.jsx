@@ -9,9 +9,12 @@ const Home = () => {
             <div className="bg-[#eef2ff]">
             <Banner></Banner>
             </div>
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-6xl mx-auto pb-40">
             <Category></Category>
-            <Featured></Featured></div>
+            </div>
+            <div className="bg-[#eef2ff] pt-20">
+            <Featured></Featured>
+            </div>
         </div>
     );
 };
